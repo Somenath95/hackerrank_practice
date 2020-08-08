@@ -1,4 +1,5 @@
 line = int(input())
 
 for i in range(1,line+1):
-    print(" "*(line-i),"#"*i)
+    # print(" "*(line-i),"#"*i)
+    print(str('#' * i).rjust(line))
