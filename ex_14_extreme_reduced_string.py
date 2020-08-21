@@ -1,0 +1,2 @@
+def reduce(s):
+    pass
